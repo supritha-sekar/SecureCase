@@ -1,0 +1,26 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+instance/*.db
+.pytest_cache/
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Other
+.DS_Store
+*.log
+
+# Local database
+*.db
+backend/instance/
+
+# Backups
+backend/backups/
+
+# Uploaded documents and encrypted files
+backend/storage/
